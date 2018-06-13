@@ -13,7 +13,7 @@ import udinova.fanatico.Models.JSON.PreguntaJSON;
 import udinova.fanatico.Models.JSON.RespuestaJSON;
 import udinova.fanatico.Models.JSON.UsuarioJSON;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
