@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udinova.preguntados.View.Puntos_Activity"
+    android:background="@drawable/background_gradient"
+    android:focusable="true"
+    android:theme="@style/AppThemeWhite"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:paddingVertical="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/trofeo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+        <TextView
+            android:layout_weight="5"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/TituloXXGrande"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="PUNTAJE TOTAL"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/Punto_Puntos"
+            android:layout_weight="5"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/TituloXXGrande"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="200ptos"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4.7"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="NuevoJuego"
+                android:layout_gravity="center"
+                android:id="@+id/Punto_Menu"
+                style="@style/btnLogin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_button_style"
+                android:text="NUEVO jUEGO"
+                android:textSize="@dimen/TituloGrande" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/Punto_NuevoJuego"
+                android:onClick="Menu"
+                style="@style/btnLogin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_button_style"
+                android:text="MENU"
+                android:textSize="@dimen/TituloGrande" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

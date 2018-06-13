@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme_Dialog_Translucent" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="AppThemes" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/negro</item>
+    </style>
+    <style name="AppThemeWhite" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blanco</item>
+    </style>
+    <style name="ContainerEditText">
+        <item name="android:textColorHint">@color/blanco</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+    <style name="EditTextMD" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="backgroundTint">@color/blanco</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:textColorHint">@color/blanco</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+    <style name="Pregunta">
+        <item name="android:textSize">@dimen/TituloGrande</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+    <style name="btnLogin">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@drawable/border_button_style</item>
+    </style>
+    <style name="btnLogin2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/border_button_style</item>
+    </style>
+    <style name="imglogin" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="backgroundTint">@color/blanco</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="txtteclado">
+        <item name="android:textSize">@dimen/TituloXGrande</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@drawable/border_style</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

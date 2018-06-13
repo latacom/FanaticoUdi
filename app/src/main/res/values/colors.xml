@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c3f41</color>
+    <color name="colorPrimaryDark">#333e49</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="transparent">#caffffff</color>
+    <color name="blanco">#ffffff</color>
+    <color name="negro">#000000</color>
+    <color name="azul">#002087</color>
+    <color name="rojo">#d40602</color>
+    <color name="falla">#d40602</color>
+    <color name="correcto">#06c716</color>
+</resources>

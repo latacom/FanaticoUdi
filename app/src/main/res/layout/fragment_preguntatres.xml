@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udinova.preguntados.View.Fragments.PreguntaTres"
+    android:background="@drawable/background_gradient"
+    android:focusable="true"
+    android:theme="@style/AppThemeWhite"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+
+        android:paddingVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2.8"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/Pregunta"
+                android:background="@drawable/border_style"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:layout_marginVertical="5dp"
+                style="@style/Pregunta"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text=" dadsad dasdsad dasddsaCual es el nombre de este jugador del mundial 1998"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1.3"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="60dp"
+                    android:layout_weight="1.5"
+                    android:background="@color/negro"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="3dp"
+                    android:paddingTop="3dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/rojo"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:clickable="false"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blanco"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:text="C R I S t i a n o \n _ _ _ _ _ _ _ "
+                        android:textSize="@dimen/TituloXGrande" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include
+                    layout="@layout/item_teclado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3.4">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/TituloGrande"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="correcto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:textColor="@color/blanco"
+                    android:textSize="@dimen/Titulo"
+                    android:gravity="center"
+                    android:text="Siguiente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    />
+                <ImageView
+                    android:background="@drawable/flecha"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>

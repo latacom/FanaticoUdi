@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginVertical="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tecla_a"
+                android:text="a"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_b"
+                android:text="b"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_c"
+                android:text="c"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_d"
+                android:text="d"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_e"
+                android:text="e"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_f"
+                android:text="f"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_g"
+                android:text="g"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_h"
+                android:text="h"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_i"
+                android:text="i"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tecla_j"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="j"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_k"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="k"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_l"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="l"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_m"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="m"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_n"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="n"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/tecla_ñ"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="ñ"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_o"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="o"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tecla_p"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="p"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/tecla_q"
+                style="@style/txtteclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="q"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tecla_r"
+                android:text="r"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_s"
+                android:text="s"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_t"
+                android:text="t"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_u"
+                android:text="u"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_v"
+                android:text="v"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_w"
+                android:text="w"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_x"
+                android:text="x"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_y"
+                android:text="y"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tecla_z"
+                android:text="z"
+                android:textAlignment="center"
+                style="@style/txtteclado"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TituloXGrande">30dp</dimen>
+    <dimen name="TituloLGrande">25dp</dimen>
+    <dimen name="TituloGrande">20dp</dimen>
+    <dimen name="Titulo">18dp</dimen>
+    <dimen name="Contenido">16dp</dimen>
+    <dimen name="ContenidoP">14dp</dimen>
+    <dimen name="TituloXXGrande">40dp</dimen>
+</resources>

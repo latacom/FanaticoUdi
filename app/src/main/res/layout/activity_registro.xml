@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:theme="@style/AppThemeWhite"
+    android:focusableInTouchMode="true"
+    tools:context="udinova.preguntados.View.Registro_Activity"
+    android:background="@drawable/background_gradient">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="200dp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nova_logo"
+            android:alpha="0.1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/border_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/blanco"
+                    android:textSize="@dimen/TituloXGrande"
+                    android:textAlignment="center"
+                    android:id="@+id/Reg_Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registro"/>
+                <android.support.design.widget.TextInputLayout
+                    style="@style/ContainerEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Reg_Nombre"
+                        android:textSize="@dimen/Titulo"
+                        style="@style/EditTextMD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    style="@style/ContainerEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellido">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Reg_Apellido"
+                        android:textSize="@dimen/Titulo"
+                        style="@style/EditTextMD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    style="@style/ContainerEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre de Usuario">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Reg_NomUser"
+                        android:textSize="@dimen/Titulo"
+                        style="@style/EditTextMD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    style="@style/ContainerEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/blanco"
+                    android:hint="Contraseña">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Reg_Contra"
+                        android:textSize="@dimen/Titulo"
+                        style="@style/EditTextMD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    style="@style/ContainerEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Repita la Contraseña">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Reg_ContraRep"
+                        android:textSize="@dimen/Titulo"
+                        style="@style/EditTextMD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
